@@ -37,11 +37,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Authorization
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
     # User apps
     'service',
     'vehicles',
-
+    # framework
     'rest_framework',
+    'import_export',
+    'django_filters',
 ]
 
 SITE_ID = 1
