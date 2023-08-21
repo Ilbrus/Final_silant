@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     # User apps
     'service',
     'vehicles',
+
+    'rest_framework',
 ]
 
 SITE_ID = 1
