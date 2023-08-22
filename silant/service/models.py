@@ -22,8 +22,8 @@ class Failure(models.Model):
         return f'{self.name}'
 
     class Meta:
-        verbose_name = 'Характер отказа'
-        verbose_name_plural = 'Характеры отказа'
+        verbose_name = 'Узел отказа'
+        verbose_name_plural = 'Узлы отказа'
 
 class RecoveryMethod(models.Model):
     name = models.CharField(max_length=100, verbose_name='Название')

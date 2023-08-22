@@ -225,7 +225,7 @@ header {
   padding: 10px 40px;
   width: 100%;
   position: fixed;
-  background-color: #ffffff;
+  background-color: #EBE6D6;
   z-index: 70;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2509803922);
 }
@@ -301,7 +301,7 @@ header {
 .content h2 {
   margin-top: 20px;
   text-align: center;
-  color: #163E6C;
+  color: #D20A11;
 }
 .content h3 {
   margin-top: 20px;
