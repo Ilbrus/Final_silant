@@ -12,7 +12,6 @@
 
 .silant {
   font-family: 'Silant' !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -21,23 +20,3 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/*
-.silant-service:before {
-  content: "\e904";
-}
-.silant-checklist:before {
-  content: "\e905";
-}
-.silant-complaint:before {
-  content: "\e900";
-}
-.silant-client:before {
-  content: "\e901";
-}
-.silant-maintenance:before {
-  content: "\e902";
-}
-.silant-vehicle:before {
-  content: "\e903";
-}
-*/
