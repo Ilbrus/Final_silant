@@ -33,3 +33,5 @@ zpyHEnLlbK
 Сервисная компания Силант
 Silant@ServiceCompany
 dIabCXBFwK
+
+Для доступа в админ панель: login: admin password: admin
