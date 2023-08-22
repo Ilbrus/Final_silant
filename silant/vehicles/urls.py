@@ -11,4 +11,8 @@ urlpatterns = [
     path('car/<pk>/update', CarUpdateView.as_view(), name='car_update'),
     path('car/<pk>/delete', CarDeleteView.as_view(), name='car_delete'),
     path('car/<pk>/description/<atribute>', CarDescriptionView.as_view(), name='car_description'),
+
+    path('api/cars/',CarListAPI.as_view(),name='car_list_api'),
+    path('api/<user>/cars/',CarUserListAPI.as_view(),name='user_car_list_api'),
+    path('api/car/<pk>/',CarDetailAPI.as_view(),name='car_detail_api'),
 ]
